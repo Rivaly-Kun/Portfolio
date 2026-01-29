@@ -1,8 +1,6 @@
 
   # Portfolio Website for Ernst
 
-  This is a code bundle for Portfolio Website for Ernst. The original project is available at https://www.figma.com/design/JubT4QSaSnY6j7wqXh0U9p/Portfolio-Website-for-Ernst.
-
   ## Running the code
 
   Run `npm i` to install the dependencies.
