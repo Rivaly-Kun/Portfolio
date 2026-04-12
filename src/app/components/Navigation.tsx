@@ -11,8 +11,8 @@ export function Navigation({ activeSection }: NavigationProps) {
   const navItems = [
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
-    { id: "projects", label: "Projects" },
     { id: "achievements", label: "Achievements" },
+    { id: "projects", label: "Projects" },
     { id: "skills", label: "Skills" },
     { id: "all-projects", label: "All Projects" },
     { id: "contact", label: "Contact" },
@@ -21,7 +21,14 @@ export function Navigation({ activeSection }: NavigationProps) {
   const scrollToSection = (id: string) => {
     const element = document.getElementById(id);
     if (element) {
-      element.scrollIntoView({ behavior: "smooth" });
+      if (id === "contact") {
+        window.scrollTo({
+          top: document.documentElement.scrollHeight,
+          behavior: "smooth",
+        });
+      } else {
+        element.scrollIntoView({ behavior: "smooth" });
+      }
       setIsOpen(false);
     }
   };

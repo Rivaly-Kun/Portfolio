@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { ExternalLink, Github } from "lucide-react";
+import { Github } from "lucide-react";
 
 interface Project {
   title: string;
@@ -51,6 +51,7 @@ export function Projects() {
       githubLink: "https://github.com/Rivaly-Kun/PakYaw_Mobile",
       highlight: true,
     },
+
     {
       title: "Keitech Kananga School Student Admission System",
       description: "A student enrollment and record management system.",
@@ -69,6 +70,7 @@ export function Projects() {
       ],
       platform: "Desktop",
       githubLink: "https://github.com/Rivaly-Kun/KeitechAd-Electron",
+      highlight: true,
     },
     {
       title: "AI Gemini Financial Manager",
@@ -83,6 +85,8 @@ export function Projects() {
         "Cross-platform (Web + Mobile)",
       ],
       platform: "Web + Mobile",
+      githubLink: "https://github.com/Rivaly-Kun/AI-Gemini-Financial-Manager",
+      highlight: true,
     },
     {
       title: "PayrollSystem",
@@ -97,6 +101,7 @@ export function Projects() {
       ],
       platform: "Windows",
       githubLink: "https://github.com/Rivaly-Kun/PayrollSystem",
+      highlight: true,
     },
     {
       title: "AI Study Buddy",
@@ -112,6 +117,7 @@ export function Projects() {
       ],
       platform: "Windows",
       githubLink: "https://github.com/Rivaly-Kun/AI-Study-Buddy",
+      highlight: true,
     },
   ];
 
@@ -155,17 +161,15 @@ export function Projects() {
                     </span>
                   </div>
                   <div className="flex gap-2">
-                    {project.githubLink && (
-                      <a
-                        href={project.githubLink}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="p-2 hover:bg-accent rounded-full transition-colors"
-                        aria-label="View code"
-                      >
-                        <Github size={18} />
-                      </a>
-                    )}
+                    <a
+                      href={project.githubLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="p-2 hover:bg-accent rounded-full transition-colors"
+                      aria-label="View code"
+                    >
+                      <Github size={18} />
+                    </a>
                   </div>
                 </div>
 

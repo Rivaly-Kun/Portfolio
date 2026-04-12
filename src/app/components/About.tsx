@@ -7,13 +7,13 @@ export function About() {
       icon: Code2,
       title: "Full-Stack Development",
       description:
-        "Experienced in building end-to-end applications with React, Firebase, and modern web technologies.",
+        "Experienced in building end-to-end applications across mobile, web, and desktop using React, Flutter, Kotlin, Firebase, and modern development technologies.",
     },
     {
       icon: Brain,
       title: "AI Integration",
       description:
-        "Skilled in integrating AI capabilities using Gemini AI, Vertex AI, and various machine learning tools.",
+        "Experienced in integrating GPT, Gemini, Vertex AI, and other AI services, including local LLMs like Llama, Qwen, DeepSeek, Mistral, Phi, Gemma, Hermes, and Command-R into real systems.",
     },
     {
       icon: Rocket,

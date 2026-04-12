@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion } from "motion/react";
 
 interface SkillCategory {
   category: string;
@@ -8,28 +8,58 @@ interface SkillCategory {
 export function Skills() {
   const skillCategories: SkillCategory[] = [
     {
-      category: 'Frontend Development',
-      skills: ['React', 'Vite', 'Tailwind CSS', 'HTML/CSS', 'JavaScript', 'TypeScript', 'SCSS'],
+      category: "Frontend Development",
+      skills: [
+        "React",
+        "Vite",
+        "Tailwind CSS",
+        "HTML/CSS",
+        "JavaScript",
+        "TypeScript",
+        "SCSS",
+      ],
     },
     {
-      category: 'Backend & Database',
-      skills: ['Firebase', 'Supabase', 'SQLite', 'MySQL', 'Python', 'Node.js'],
+      category: "Backend & Database",
+      skills: ["Firebase", "Supabase", "SQLite", "MySQL", "Python", "Node.js"],
     },
     {
-      category: 'Mobile Development',
-      skills: ['Android (Java)', 'React Native', 'Cordova', 'Hybrid Apps'],
+      category: "Mobile Development",
+      skills: [
+        "Android (Java)",
+        "React Native",
+        "Cordova",
+        "Hybrid Apps",
+        "Flutter",
+        "Xamarin",
+        "Kotlin",
+      ],
     },
     {
-      category: 'Desktop Development',
-      skills: ['C# .NET', 'WinForms', 'Electron Framework'],
+      category: "Desktop Development",
+      skills: ["C# .NET", "WinForms", "Electron Framework"],
     },
     {
-      category: 'AI & Machine Learning',
-      skills: ['Gemini AI', 'Vertex AI (Google)', 'ChatGPT API', 'OCR (Tesseract)', 'Face-API'],
+      category: "AI Integration",
+      skills: [
+        "Gemini AI",
+        "Vertex AI (Google)",
+        "ChatGPT API",
+        "OCR (Tesseract)",
+        "Face-API",
+        "Local LLMs (Llama, Qwen, DeepSeek, Mistral, Phi, Gemma, Hermes, Command-R)",
+      ],
     },
     {
-      category: 'Tools & Frameworks',
-      skills: ['Git', 'Firebase Auth', 'Firebase Storage', 'Firestore', 'Real-time Database', 'Vaadin'],
+      category: "Tools & Frameworks",
+      skills: [
+        "Git",
+        "Firebase Auth",
+        "Firebase Storage",
+        "Firestore",
+        "Real-time Database",
+        "Vaadin",
+      ],
     },
   ];
 
