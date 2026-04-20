@@ -114,19 +114,19 @@ export function Achievements() {
     },
     {
       title: "STI College CodeFest 2025",
-      result: "3rd Place",
+      result: "2nd Runner Up",
       year: "2025",
       featured: false,
     },
     {
       title: "STI College CodeFest 2024",
-      result: "2nd Place",
+      result: "1st Runner Up",
       year: "2024",
       featured: false,
     },
     {
       title: "STI College CodeFest 2023",
-      result: "3rd Place",
+      result: "2nd Runner Up",
       year: "2023",
       featured: false,
     },
