@@ -99,9 +99,31 @@ export function AllProjects() {
       githubLink: "https://github.com/Rivaly-Kun/PayrollSystem",
     },
     {
+      title: "Ollama Local LLM Control Panel",
+      description:
+        "A private, local-first AI control panel and chat workspace for managing and comparing Ollama models with persistent chat history.",
+      tech: [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "IndexedDB",
+        "Ollama API",
+      ],
+      platform: "Web",
+      githubLink: "https://github.com/Rivaly-Kun/Ollama-Local-LLM-ControlPanel",
+    },
+    {
       title: "Keitech School Student Admission System",
       description: "A student enrollment and record management system.",
-      tech: ["JavaScript", "Electron", "SQLite", "OCR Tesseract"],
+      tech: [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Electron",
+        "SQLite",
+        "Tesseract OCR",
+      ],
       platform: "Desktop",
       githubLink: "https://github.com/Rivaly-Kun/KeitechAd-Electron",
     },

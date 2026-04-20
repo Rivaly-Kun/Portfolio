@@ -47,7 +47,7 @@ export function Skills() {
         "ChatGPT API",
         "OCR (Tesseract)",
         "Face-API",
-        "Local LLMs (Llama, Qwen, DeepSeek, Mistral, Phi, Gemma, Hermes, Command-R)",
+        "Local LLMs (Llama3, Qwen2.5, DeepSeek-R1, Gemma3, Phi3, Ollama)",
       ],
     },
     {

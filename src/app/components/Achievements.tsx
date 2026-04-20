@@ -23,7 +23,7 @@ export function Achievements() {
   };
 
   const featuredChampion = {
-    title: "STI College CodeFest 2026",
+    title: "STI Ormoc CodeFest 2026",
     description: "Champion",
     year: "2026",
     icon: Crown,
@@ -31,6 +31,19 @@ export function Achievements() {
   };
 
   const achievements: Achievement[] = [
+    {
+      title: "STI Bacolod Cluster CodeFest 2026",
+      description: "2nd Runner Up",
+      year: "2026",
+      icon: Trophy,
+      highlight: true,
+      images: [
+        "CODEFEST 2026 cluster 2nd runner up.jpg",
+        "CODEFEST 2026 cluster 2nd runner up2.jpg",
+        "CODEFEST 2026 cluster 2nd runner up3.jpg",
+      ],
+      note: "3 event snapshots",
+    },
     {
       title: "Byte Forward Competition",
       description:
@@ -88,10 +101,16 @@ export function Achievements() {
 
   const codeFestPlacements = [
     {
-      title: "STI College CodeFest 2026",
+      title: "STI Ormoc CodeFest 2026",
       result: "Champion",
       year: "2026",
       featured: true,
+    },
+    {
+      title: "STI Bacolod Cluster CodeFest 2026",
+      result: "2nd Runner Up",
+      year: "2026",
+      featured: false,
     },
     {
       title: "STI College CodeFest 2025",
@@ -204,7 +223,7 @@ export function Achievements() {
               <div className="relative min-h-[280px] lg:min-h-[370px] overflow-hidden">
                 <ImageWithFallback
                   src={publicImage(featuredChampion.image)}
-                  alt="STI College CodeFest 2026 Champion"
+                  alt="STI Ormoc CodeFest 2026 Champion"
                   className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary/75 via-primary/10 to-transparent" />
@@ -367,7 +386,7 @@ export function Achievements() {
               </h3>
             </div>
 
-            <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-3">
+            <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-3">
               {codeFestPlacements.map((placement) => (
                 <div
                   key={placement.title}
